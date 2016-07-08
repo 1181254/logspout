@@ -6,7 +6,7 @@ export ROUTE_JSON
 (
 	sleep 5
 	if [ "X" != "X${ROUTE_JSON}" ]; then
-		curl http://localhost:8000/routes -d "$ROUTE_JSON"
+		curl http://localhost/routes -d "$ROUTE_JSON"
 	fi
 ) &
 
