@@ -1,11 +1,12 @@
 package main
 
 import (
-	_ "github.com/gliderlabs/logspout/adapters/raw"
-	_ "github.com/gliderlabs/logspout/adapters/syslog"
-	_ "github.com/gliderlabs/logspout/httpstream"
-	_ "github.com/gliderlabs/logspout/routesapi"
-	_ "github.com/gliderlabs/logspout/transports/tcp"
-	_ "github.com/gliderlabs/logspout/transports/udp"
-	_ "github.com/gliderlabs/logspout/transports/tls"
+	_ "github.com/rohit01/logspout/adapters/kafka"
+	_ "github.com/rohit01/logspout/adapters/raw"
+	_ "github.com/rohit01/logspout/adapters/syslog"
+	_ "github.com/rohit01/logspout/httpstream"
+	_ "github.com/rohit01/logspout/routesapi"
+	_ "github.com/rohit01/logspout/transports/tcp"
+	_ "github.com/rohit01/logspout/transports/tls"
+	_ "github.com/rohit01/logspout/transports/udp"
 )
